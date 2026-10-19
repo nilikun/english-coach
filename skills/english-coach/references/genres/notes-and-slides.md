@@ -2,6 +2,8 @@
 
 Many users write in English not only to publish but to share what they read and present it: paper notes for the lab wiki, a summary in Slack, a journal club or group meeting deck (组会, 輪講, ゼミ), a conference talk, a demo for a client. Each has its own rules, and they differ from paper prose.
 
+Load `medium.md` with this file: it has the word-level differences between papers, slides and speech, and the rules for converting one into another.
+
 Ask yourself first: **who reads this, and how?** Notes only the user reads need little fixing beyond meaning. Notes that teammates will read need clear attribution and consistent shorthand. Slides are glanced at while someone talks. A script is heard, not read.
 
 ## Reading notes and paper summaries
@@ -103,5 +105,5 @@ Avoid starting every answer with *That's a very good question*; once is fine.
 - **Slides**: one block per slide: `**Slide 3** · current title → suggested title`, then notes with the usual markers. Mark a slide ✅ only if nothing on it needs changing. Then the deck-level issues (parallelism, capitalization) once, not per slide.
 - **Scripts**: sentence by sentence for a short script, as in `review.md`; for a long one, a few sentences at a time. Show the spoken version next to theirs where it differs.
 - **Slides plus script** count as one text for the hand-over rule in `review.md`.
-- A talk is "going out soon" if it's within two days. Otherwise, leave the final assembly to the user.
+- When reviewing a talk the user wrote, it is "going out soon" if it's within two days; otherwise leave the final assembly to the user. A request to *convert* a paper into slides or a script follows `medium.md` section 5 instead.
 - Keep the user's technical content and numbers unchanged.

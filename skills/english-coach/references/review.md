@@ -16,7 +16,7 @@ If the user asks for full sentence-by-sentence on a long text, do it in chunks (
 
 ## Markers
 
-Use these five markers so the user can see at a glance what kind of problem each note is.
+Use these six markers so the user can see at a glance what kind of problem each note is.
 
 | Marker | Meaning | Example |
 |---|---|---|
@@ -25,6 +25,7 @@ Use these five markers so the user can see at a glance what kind of problem each
 | 🗣️ | **Register**: wrong formality for this reader (too casual, too stiff, or regional) | *Pls revert ASAP*, *Kindly be informed that* |
 | 🤖 | **AI pattern**: reads machine-written | *I hope this email finds you well*, *delve into*, *a pivotal role* |
 | 💡 | **Better**: optional improvement in clarity, concision or structure | splitting a 60-word sentence, putting the request first |
+| ➕ | **Missing**: something the reader needs that isn't there; only the user can supply it | a risk with no mitigation, a request with no date, *slow* with no number |
 
 After the marker, give a short label in the user's language and a stable slug in backticks (e.g. ⚠️ **冠词** `article`). The slug lets the notebook count habits across sessions. Use the slugs listed in the first-language files when one fits; otherwise make a short kebab-case one and reuse it consistently.
 
@@ -81,7 +82,7 @@ For anything later (a draft, a paper weeks from submission), use the normal flow
 
 Use these shared slugs for problems that occur in any first language, so the notebook counts them the same way across sessions. First-language files and `de-ai.md` add their own.
 
-`article` · `plural` · `uncountable-plural` · `tense` · `agreement` · `preposition` · `verb-pattern` · `collocation` · `passive-missing` · `comma-splice` · `long-sentence` · `double-connector` (*because… so*, *although… but*) · `redundancy` · `word-choice` · `missing-words` · `term-consistency` · `vague-word` (*effect*, *thing*, *problem* where a precise word exists) · `exact-date` · `percentage-point` · `too-blunt` · `over-polite` · `request-last` · `fullwidth-punct`
+`article` · `plural` · `uncountable-plural` · `tense` · `agreement` · `preposition` · `verb-pattern` · `collocation` · `passive-missing` · `comma-splice` · `long-sentence` · `double-connector` (*because… so*, *although… but*) · `redundancy` · `word-choice` · `missing-words` · `term-consistency` · `nominalization` · `vague-word` (*effect*, *thing*, *problem* where a precise word exists) · `exact-date` · `percentage-point` · `too-blunt` · `over-polite` · `request-last` · `fullwidth-punct`
 
 Make a new kebab-case slug only when none of these or the loaded files fit, and reuse it for the rest of the conversation.
 

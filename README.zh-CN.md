@@ -80,6 +80,7 @@ npx skills add nilikun/english-coach
 | 中英混杂，比如 *we need to 确认 the 交期* | **混合输入**。每个中文词给几个英文选项并说明区别。还会指出那些在办公室里意思已经变了的英文词：*push*、*case*、*align*、*open a meeting*。 |
 | 用 ChatGPT 写的稿子 | **AI 腔检查**。指出哪些说法一看就像 AI 写的，帮你换成自己的话。它不会去猜你有没有用 AI。 |
 | 新加坡式英语、聊天口吻 | **语体调整**。把 *Pls revert*、*can or not*、*noted with thanks* 改成海外读者看得懂的说法。Singlish 是一种正当的英语变体，只有读者在海外或者场合正式时才需要改。 |
+| 想把论文改成讲稿或 slides，或者讲稿听起来像在念论文 | **媒介**。论文、邮件、聊天、slides、口语，用词各不相同：论文里写 *however*，讲出来说 *but*；书面写 *approximately 48%*，口头说 *almost half*；slide 上可以写 *↓ 48%*，邮件里不行。它能在这些之间帮你转换，边改边讲规则。 |
 | 英文的论文笔记、slides 或讲稿 | **笔记和汇报**。笔记里分清"论文说的"和"你认为的"；slide 标题直接写结论，要点句式保持一致；讲稿改成真正能说出口的英文，*Thank you for your listening*、*Welcome everyone to criticize and correct* 这类句子也会帮你换掉。 |
 | "供应链邮件常用哪些词？" | **领域词汇**。给你这个领域的术语、搭配和容易用错的词，例句尽量从你自己的稿子里取。 |
 | "出几道题考考我" | **错题本**。记录你反复出现的问题，每次批改先查这些，还能拿你自己的错误出题。 |
@@ -103,6 +104,9 @@ english-coach 的回复（节选）：
 | 示例 | 讲解语言 |
 |---|---|
 | [论文摘要](examples/zh-CN-paper-abstract.md) | 简体中文 |
+| [把论文段落改成 slides 和讲稿](examples/zh-CN-paper-to-talk.md) | 简体中文 |
+| [邮件里混进了 PPT 写法的周报](examples/zh-CN-weekly-report.md) | 简体中文 |
+| [像在念论文的学会发表讲稿](examples/ja-conference-talk.md) | 日本語 |
 | [组会 slides 和讲稿](examples/zh-CN-group-meeting-slides.md) | 简体中文 |
 | [用 ChatGPT 写的套磁信](examples/zh-CN-ai-style-phd-email.md) | 简体中文 |
 | [明天要发的延期通知](examples/zh-CN-client-email.md) | 简体中文 |
@@ -144,6 +148,7 @@ skills/english-coach/
     ├── scaffold.md       # 从中文 / 日文起步的句式
     ├── mixed-input.md    # 中英混杂、办公室英文
     ├── register.md       # 太口语 / 太生硬
+    ├── medium.md         # 论文 / 邮件 / 聊天 / slides / 口语
     ├── de-ai.md          # AI 腔
     ├── vocab.md          # 领域词汇
     ├── notebook.md       # 错题本和测验

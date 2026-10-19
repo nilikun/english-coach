@@ -48,6 +48,24 @@
       "name": "zh-group-meeting-slides",
       "prompt": "下周组会要用英文讲一篇论文，这是我的slides文字和讲稿，帮我看看\n\nSlide 1: Research Background\n- With the development of LLM, more and more researches focus on long context\n- Existing methods have high computation cost\n\nSlide 2: Method\n- Propose a sparse attention method\n- Training the model on 4K tokens and then extending to 128K\n- Evaluation on LongBench\n\nSlide 3: Experiment\n- The proposed method is the best in all datasets\n- Speed is improved 3 times\n\nSlide 4: Thank you for your listening!\n\n讲稿：\nToday I will introduce you a paper about long context LLM. Firstly, let me introduce the background. With the development of LLM, more and more researches focus on long context, however existing methods have high computation cost because the attention complexity is quadratic to the sequence length which makes it difficult to process very long documents in practical applications. In this paper, the authors put forward a sparse attention method. Everyone can see that the proposed method is the best in all datasets. That's all my report, welcome everyone to criticize and correct.",
       "expected_output": "Uses notes-and-slides.md; slide-by-slide action titles; parallel bullets (Propose/Training/Evaluation); researches uncountable; with-development; overclaim attribution (authors report); 'improved 3 times' ambiguity; Thank you for your listening; script: introduce you, firstly let me introduce, long sentence split, put forward, everyone can see, That's all my report, criticize and correct; signposting allowed in speech."
+    },
+    {
+      "id": 9,
+      "name": "zh-paper-to-talk",
+      "prompt": "下周四组会要讲我们自己的论文，下面是论文里结果部分的一段，帮我改成 2 页 slides 和对应的讲稿，我想学一下论文和讲稿的英文到底有什么区别\n\nAs shown in Table 3, the proposed method achieves an average F1 score of 0.873 on the three benchmark datasets, outperforming the strongest baseline [14] by 4.6 percentage points. Furthermore, the inference latency is reduced from 120 ms to 62 ms, respectively on GPU and CPU settings, which demonstrates the practicality of the method for real-time applications. However, it should be noted that the performance on the low-resource dataset (n = 312) is relatively limited, suggesting that the effectiveness of the proposed approach may depend on the availability of sufficient training data.",
+      "expected_output": "Convert mode via medium.md section 5: lists 3-5 changes; converts first part as model, hands over the rest (deadline next week); flags 'respectively' misuse (also ambiguous: 120 vs 62 not GPU/CPU pair?), citation spoken, numbers rounded in speech, signposting; slides with action titles; keeps hedge."
+    },
+    {
+      "id": 10,
+      "name": "ja-talk-script",
+      "prompt": "来月の学会発表の原稿とスライド1枚です。英語として変じゃないか見てください。\n\n【スライド3】\nタイトル: Proposal Method\n- Accuracy improvement by attention mechanism introduction\n- The proposed method was applied to the dataset which was collected in 2024 and it was confirmed that the accuracy is improved.\n\n【原稿】\nI would like to explain about the proposal method. Furthermore, as illustrated in this figure, it can be observed that the accuracy of the proposed method and the baseline method are 92.3% and 85.1%, respectively. Therefore, it is considered that the attention mechanism is effective. I would like to explain about the limitation next.",
+      "expected_output": "Japanese explanations; medium.md: noun-stack, sentence-on-slide, topic-title, written-in-speech, respectively-spoken, stiff-speech, explain about, Proposal Method -> proposed method; spoken rounding; signposting."
+    },
+    {
+      "id": 11,
+      "name": "zh-weekly-report",
+      "prompt": "这是我要发给新加坡老板的周报（邮件），帮我看看英文\n\nHi Kelvin,\n\nThis week we got a lot of progress on the data pipeline. Latency ↓ 40% w/ new cache, and the error rate is kind of stable now. So, basically the migration is on track. BTW, the vendor API is still super slow, we think it's a big risk for the Q4 launch. Next week → finish load test + fix the remaining bugs.\n\nThx!\nWei",
+      "expected_output": "medium.md: slide-in-prose (↓, w/, →, +), chat-in-email (BTW, Thx), spoken-in-writing (got a lot of progress, kind of, So basically, super); register for boss; report.md status structure (on track first, risk with owner/mitigation); keeps meaning."
     }
   ]
 }

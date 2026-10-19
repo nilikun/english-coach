@@ -2,7 +2,13 @@
 
 Register is how formal the text sounds. Non-native writers miss it in two directions: chat-style English in an email to a director, or 1950s office English (*Kindly be informed herewith*) in a message to a teammate. Both cost credibility.
 
+This file is about formality: who is reading. For how the medium changes the words (paper vs. email vs. slide vs. speech), see `medium.md`; the two often apply together.
+
 Load this file when the text is a mismatch for its reader. For Singapore-specific usage also load `l1/singapore.md`; for Hong Kong and Taiwan, `l1/chinese-tw-hk.md`.
+
+Slugs for this file: `spoken-in-writing` for spoken fillers and intensifiers (*So, basically, kind of, super*), `chat-in-email` for chat abbreviations (*pls, thx, BTW, u*), `too-stiff` for the old-fashioned phrases, `politeness-step` for a request pitched at the wrong step of the ladder. `medium.md` uses the same slugs.
+
+The reader's region changes tone more than vocabulary. A Singapore or Hong Kong manager won't mind *Noted with thanks*, but the user doesn't need to imitate local phrases to write to them; neutral international English works for every reader.
 
 ## Four levels
 

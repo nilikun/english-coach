@@ -80,6 +80,7 @@ It reads what you sent and picks the mode itself.
 | A mix, like *we need to 确认 the 交期* | **Mixed.** Options for each Chinese or Japanese chunk and how they differ. It also flags office English that doesn't mean what you think: *push*, *case*, *claim*, *evidence*. |
 | Text drafted with ChatGPT | **AI-style check.** Names the phrases that make it read machine-written and helps you say it in your own words. It never guesses whether you used AI. |
 | Singlish or chat-style English for a formal reader | **Register.** *Pls revert*, *can or not*, *noted with thanks* turned into wording an overseas reader understands. It treats Singlish as a real variety and changes it only for overseas or formal readers. |
+| A paper paragraph you want to present, or a talk that sounds like a paper | **Medium.** Papers, email, chat, slides and speech each need different words: *however* in a paper, *but* in a talk; *approximately 48%* in writing, *almost half* out loud; *↓ 48%* on a slide but never in an email. It converts from one to another and teaches the rules as it goes. |
 | Paper notes, slides or a talk script in English | **Notes and slides.** Notes that separate what the paper claims from what you think; slide titles that state the point; bullets in parallel form; a script that sounds spoken, with fixes for *Thank you for your listening* and *Welcome everyone to criticize and correct*. |
 | "What words do I need for supply-chain email?" | **Vocab.** A short list of terms, collocations and traps for your field, with examples built from your own text. |
 | "Quiz me" | **Notebook.** It keeps a file of your recurring mistakes, checks them first in each review, and quizzes you on them. |
@@ -105,6 +106,9 @@ Full, unedited replies:
 |---|---|
 | [Email to a partner in Germany](examples/singapore-partner-email.md) (Singlish → international English) | English |
 | [Group meeting slides and talk script](examples/zh-CN-group-meeting-slides.md) | 简体中文 |
+| [Paper paragraph → slides and talk script](examples/zh-CN-paper-to-talk.md) | 简体中文 |
+| [Weekly report with slide shorthand (↓, w/, →) in an email](examples/zh-CN-weekly-report.md) | 简体中文 |
+| [Conference talk that sounds like a paper](examples/ja-conference-talk.md) | 日本語 |
 | [Journal abstract](examples/zh-CN-paper-abstract.md) (catches *3.2% higher* that should be *3.2 percentage points*) | 简体中文 |
 | [ChatGPT-drafted PhD inquiry](examples/zh-CN-ai-style-phd-email.md) | 简体中文 |
 | [Mixed Chinese-English message to US headquarters](examples/zh-TW-mixed-message.md) | 繁體中文 |
@@ -147,6 +151,7 @@ skills/english-coach/
     ├── scaffold.md       # sentence frames from your native language
     ├── mixed-input.md    # mixed drafts and drifted office English
     ├── register.md       # too casual / too stiff
+    ├── medium.md         # paper / email / chat / slides / speech
     ├── de-ai.md          # AI-style patterns
     ├── vocab.md          # field vocabulary
     ├── notebook.md       # error notebook and quizzes

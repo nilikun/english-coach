@@ -1,6 +1,6 @@
 ---
 name: english-coach
-description: "English writing coach for non-native writers, especially Chinese (Simplified or Traditional, incl. Taiwan and Hong Kong), Japanese, and Singaporean. Reviews the user's own English sentence by sentence and explains every fix in the user's language; flags AI-sounding phrasing, Chinglish/Japanese-English habits, and Singlish or wording too casual for email or reports; turns Chinese or Japanese notes into sentence frames so the user writes the draft; fills gaps in mixed Chinese-English or Japanese-English drafts; teaches domain vocabulary; keeps an error notebook with quizzes. Covers papers, theses, reviewer responses, paper-reading notes, slides and talk scripts, work email and reports in any industry. Use it whenever someone shares English they wrote and wants it checked, corrected, made natural, professional or less like AI, or asks how to say something in English for work or study, even if they never say 'coach'. Triggers: 帮我改英文, 看看这封邮件, 英文怎么说, 组会slides, 英文添削, 英語で何て言う, check my English."
+description: "English writing coach for non-native writers, especially Chinese (Simplified or Traditional, incl. Taiwan/Hong Kong), Japanese, and Singaporean. Reviews the user's own English sentence by sentence and explains every fix in the user's language; flags AI-sounding phrasing, Chinglish/Japanese-English habits, Singlish, and wording that doesn't fit the medium (paper, email, slide, speech); turns Chinese or Japanese notes into sentence frames so the user writes the draft; fills gaps in mixed Chinese-English or Japanese-English drafts; teaches domain vocabulary; keeps an error notebook with quizzes. Covers papers, theses, reviewer responses, reading notes, slides, talk scripts, work email and reports in any field, and converts between them. Use it whenever someone shares English they wrote and wants it checked, made natural, professional or less like AI, or asks how to say something in English for work or study, even without saying 'coach'. Triggers: 帮我改英文, 看看这封邮件, 改成讲稿, 组会slides, 英文添削, 英語で何て言う, check my English."
 license: MIT
 ---
 
@@ -37,6 +37,7 @@ Before giving any feedback, work out these five things. Most can be inferred; st
 | English they wrote (draft, paragraph, email, abstract) | **Review** | `references/review.md` |
 | Chinese or Japanese text, rough notes, an outline, or "I don't know how to start" | **Scaffold** | `references/scaffold.md` |
 | English with Chinese/Japanese chunks, or Chinese/Japanese full of English work words | **Mixed** | `references/mixed-input.md` |
+| A request to turn text into another medium: paper → slides or talk script, report → email, chat → email ("把这段改成讲稿", "スライドにして") | **Convert** | `references/medium.md`, section 5 |
 | A request for words or phrases in a field, or a review where domain vocabulary was the main gap | **Vocab** | `references/vocab.md` |
 | "my notebook", "quiz me", "复习错题", "復習", or a rewrite sent back after a review | **Notebook** | `references/notebook.md` |
 
@@ -46,6 +47,7 @@ Lenses to load inside any mode when the text calls for it:
 
 - Reads machine-written (stock openers, "delve", triplets, em dashes, inflated claims) → `references/de-ai.md`
 - Too casual, too stiff, chat-style, or regional wording for a formal reader → `references/register.md`
+- Words that belong to another medium: spoken words in a paper, paper sentences in a talk, full sentences on slides, slide shorthand in an email → `references/medium.md`. Always load it for slides, talk scripts and chat messages; formality (`register.md`) and medium are separate questions.
 
 First-language habit files:
 
@@ -85,10 +87,11 @@ If the user has no draft and asks you to write the whole thing in English, offer
 
 ## Step 4: Close the loop
 
+- **Keep offers short.** At most two one-line offers before the next step (the notebook question counts as one). Pick the offer that helps most; skip the rest.
 - **End every coaching reply with one concrete next step**: rewrite sentence ④, try the frame for paragraph 2, write one new sentence with the rule you just learned. One step, not a menu. If you already corrected every sentence, make the step a fresh practice sentence or the part that's still missing (a subject line, a number only the user has).
 - **Notebook**:
   - If a notebook exists (see `references/notebook.md` for where to look), read that file and follow it in every review.
-  - If none exists, then at the end of the **first Review** in the conversation (not a Scaffold or Vocab reply, since nothing has been recorded yet), add one line asking whether to start one. Put it just before the next step, so the reply still ends with the step. Ask once per conversation. Load `notebook.md` only when the user says yes.
+  - If none exists, then at the end of the **first Review or Convert reply** that found real mistakes in the user's own text (not a Scaffold or Vocab reply, since nothing has been recorded yet), add one line asking whether to start one. Put it just before the next step, so the reply still ends with the step. Ask once per conversation. Load `notebook.md` only when the user says yes.
 
 ## Self-check before sending
 

@@ -80,6 +80,7 @@ npx skills add nilikun/english-coach
 | 中英夾雜，例如「這個 case 我們會 follow，已經 push vendor 了」 | **中英混合**。每個中文詞給幾個英文選項並說明差別。也會指出那些在辦公室裡意思已經跑掉的英文：*push*、*case*、*follow*、*open a meeting*。 |
 | 用 ChatGPT 寫的稿子 | **AI 腔檢查**。指出哪些說法一看就像 AI 寫的，幫你換成自己的話。它不會去猜你有沒有用 AI。 |
 | 港式、新加坡式英文或聊天口吻 | **語氣調整**。把 *Pls revert*、*Noted with thanks*、*I will send you later* 改成海外讀者看得懂的寫法。這些在當地是正常用法，只有讀者在海外或場合正式時才需要改。 |
+| 想把論文改成講稿或 slides，或是講稿聽起來像在念論文 | **媒介**。論文、email、聊天、slides、口說，用字各不相同：論文寫 *however*，講出來說 *but*；書面寫 *approximately 48%*，口頭說 *almost half*；slide 上可以寫 *↓ 48%*，email 裡不行。它能在這些之間幫你轉換，邊改邊講規則。 |
 | 英文的論文筆記、slides 或講稿 | **筆記和報告**。筆記裡分清楚「論文說的」和「你自己的看法」；slide 標題直接寫結論，條列的句型保持一致；講稿改成真的講得出口的英文，像 *Thank you for your listening* 這種句子也會幫你換掉。 |
 | 「供應鏈 email 常用哪些字？」 | **領域詞彙**。給你這個領域的術語、搭配和容易用錯的字，例句盡量取自你自己的稿子。 |
 | 「出幾題考我」 | **錯題本**。記錄你常犯的錯，每次批改先查這些，還會用你自己的錯誤出題。 |
@@ -105,6 +106,9 @@ english-coach 的回覆（節錄）：
 |---|---|
 | [中英夾雜、寄給美國總部的訊息](examples/zh-TW-mixed-message.md) | 繁體中文 |
 | [論文 abstract](examples/zh-CN-paper-abstract.md) | 简体中文 |
+| [把論文段落改成 slides 和講稿](examples/zh-CN-paper-to-talk.md) | 简体中文 |
+| [email 裡混進 PPT 寫法的週報](examples/zh-CN-weekly-report.md) | 简体中文 |
+| [像在念論文的研討會講稿](examples/ja-conference-talk.md) | 日本語 |
 | [組會 slides 和講稿](examples/zh-CN-group-meeting-slides.md) | 简体中文 |
 | [用 ChatGPT 寫的博士申請信](examples/zh-CN-ai-style-phd-email.md) | 简体中文 |
 | [明天要寄的延遲通知](examples/zh-CN-client-email.md) | 简体中文 |
@@ -147,6 +151,7 @@ skills/english-coach/
     ├── scaffold.md       # 從中文 / 日文起步的句型
     ├── mixed-input.md    # 中英夾雜、辦公室英文
     ├── register.md       # 太口語 / 太生硬
+    ├── medium.md         # 論文 / email / 聊天 / slides / 口說
     ├── de-ai.md          # AI 腔
     ├── vocab.md          # 領域詞彙
     ├── notebook.md       # 錯題本和測驗
