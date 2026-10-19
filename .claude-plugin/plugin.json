@@ -1,0 +1,12 @@
+{
+  "name": "english-coach",
+  "version": "0.1.0",
+  "description": "Reviews the English you wrote, sentence by sentence, and explains every fix in your language. For papers, reports and work email.",
+  "author": {
+    "name": "nilikun"
+  },
+  "homepage": "https://github.com/nilikun/english-coach",
+  "repository": "https://github.com/nilikun/english-coach",
+  "license": "MIT",
+  "keywords": ["english", "writing", "esl", "academic-writing", "business-email", "chinese", "japanese", "singapore", "skill"]
+}

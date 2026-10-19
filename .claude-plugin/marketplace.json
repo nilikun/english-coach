@@ -1,0 +1,14 @@
+{
+  "name": "english-coach",
+  "description": "English writing coach for Chinese, Japanese and Singaporean writers. A coach, not a ghostwriter.",
+  "owner": {
+    "name": "nilikun"
+  },
+  "plugins": [
+    {
+      "name": "english-coach",
+      "source": "./",
+      "description": "Reviews the English you wrote, sentence by sentence, and explains every fix in your language."
+    }
+  ]
+}

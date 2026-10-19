@@ -1,0 +1,53 @@
+{
+  "skill_name": "english-coach",
+  "evals": [
+    {
+      "id": 1,
+      "name": "zh-cn-abstract",
+      "prompt": "帮我看看这段摘要，下周要投稿了，导师说英文有问题但没说哪里\n\nWith the development of deep learning, more and more attention has been paid to defect detection of steel surface. In order to solve the problem of low accuracy of small defect detection, based on YOLOv8, an improved algorithm is put forward in this paper. Firstly, attention mechanism is introduced into backbone network, which can enhance feature extraction ability. Secondly, by this way of multi-scale fusion, the detection effect to small targets is improved. Experiment results show that the mAP of proposed method reaches 86.4%, which is 3.2% higher than original YOLOv8, and the speed reaches 92 FPS, the method realizes real-time detection. Obviously, the proposed method has a great application value in industrial field.",
+      "expected_output": "Sentence-by-sentence review in Simplified Chinese; flags with-development, more-and-more, article, front-loaded-purpose, put-forward, by-this-way, effect-to preposition, realize, comma splice, obviously, percentage points (3.2%), proposes concrete fixes; ends with a next step."
+    },
+    {
+      "id": 2,
+      "name": "zh-cn-client-email",
+      "prompt": "明天要发给客户，帮我改改，谢谢\n\nDear Mr. David,\n\nSorry to disturb you. About the shipment problem you mentioned yesterday, we have checked the problem with our factory. Please kindly be noted that because the raw material is short, so the delivery will delay to next Friday. We are very sorry for this. Please check the attachment for the new schedule. If any questions, please reply me as soon as possible.\n\nWish you have a nice day!\n\nBest regards\nLi Ming",
+      "expected_output": "Review in Simplified Chinese; Mr. + given name; sorry-to-disturb; check-problem; be-noted; because-so; passive delay; until vs by; please-check attachment; reply me; ASAP; wish-you; maybe restructure to put news first."
+    },
+    {
+      "id": 3,
+      "name": "singapore-email",
+      "prompt": "Hi can help me check this email? Sending to our new partner in Germany tomorrow.\n\nHi Klaus,\n\nNoted with thanks on your proposal. Our team got discuss already and overall can, but the timeline a bit tight leh. Last time we do similar project also take 3 months. Pls revert by this Fri if can extend to end Q2. Also PFA the soft copy of our company profile.\n\nThanks & regards,\nJasmine",
+      "expected_output": "Review in English; respectful framing of Singlish; flags noted-with-thanks, got, already, can, leh, last-time, revert, PFA, soft copy, Pls; offers natural version for a German reader."
+    },
+    {
+      "id": 4,
+      "name": "japanese-email",
+      "prompt": "海外の取引先に送るメールです。英語がおかしくないか見てください。\n\nDear Mr. Johnson-san,\n\nThank you for your continued support. I am Tanaka of ABC Corporation. Sorry for my poor English.\n\nLast week, we received a claim from our customer about the product quality. We investigated and found that some products have a trouble in the packaging. We think the evidence is necessary, so please teach me the inspection data until this Friday. We will consider about the countermeasure after that.\n\nI look forward to hear from you.\n\nBest regards and thank you in advance,\nTaro Tanaka",
+      "expected_output": "Review in Japanese; flags Mr+san, osewa, my-poor-english, wasei-claim, trouble countable, evidence, teach, until/by, consider about, look forward to hear, buried request; suggests reorder."
+    },
+    {
+      "id": 5,
+      "name": "zh-scaffold",
+      "prompt": "我想给美国的一位教授写邮件，问他明年秋季还招不招博士生，我是做材料的，本科在华中科技大学，现在在新加坡国立读硕士，研究方向是固态电池电解质，发过一篇一作。我完全不知道英文怎么开头，帮帮我",
+      "expected_output": "Scaffold (Level 3 because user says completely stuck): structure, key words, frames with blanks, model first sentence; does not write the full email; ends asking user to write."
+    },
+    {
+      "id": 6,
+      "name": "zh-tw-mixed",
+      "prompt": "這段要寄給美國總部的 PM，中英混著寫的，幫我弄成英文並告訴我哪裡要注意\n\nHi Kevin，這個 case 我們這邊會 follow，目前卡在 vendor 那邊的 交期，我已經 push 他們了，預計下週可以 confirm。另外上次 meeting 討論的 spec 我們需要再 align 一下，你方便的話我們 open 一個 meeting？",
+      "expected_output": "Mixed mode in Traditional Chinese with Taiwan vocabulary; flags case, follow, push, align, open a meeting; options table for native chunks; assembled version; one next step."
+    },
+    {
+      "id": 7,
+      "name": "zh-ai-cover-email",
+      "prompt": "我用ChatGPT写了一封给教授的套磁信，感觉有点AI味，你帮我看看哪里像AI，教我怎么改成我自己的话\n\nDear Professor Smith,\n\nI hope this email finds you well. I am writing to express my profound interest in joining your esteemed research group. Having delved into your groundbreaking work on graph neural networks, I am truly inspired by how it paves the way for a deeper understanding of molecular property prediction.\n\nThroughout my master's journey, I have meticulously honed my skills in PyTorch, data analysis, and scientific writing. Furthermore, my recent project not only showcases my ability to tackle complex challenges but also underscores my passion for pushing the boundaries of AI for science.\n\nI would be absolutely thrilled to discuss potential PhD opportunities. Please don't hesitate to reach out at your earliest convenience.\n\nThank you for your time and consideration.\n\nWarm regards,\nZhang Wei",
+      "expected_output": "AI-pattern lens in Simplified Chinese; names patterns with quotes, no accusation; asks user for concrete details (which paper, which project, numbers) instead of inventing; offers frames; asks the user to rewrite a paragraph."
+    },
+    {
+      "id": 8,
+      "name": "zh-group-meeting-slides",
+      "prompt": "下周组会要用英文讲一篇论文，这是我的slides文字和讲稿，帮我看看\n\nSlide 1: Research Background\n- With the development of LLM, more and more researches focus on long context\n- Existing methods have high computation cost\n\nSlide 2: Method\n- Propose a sparse attention method\n- Training the model on 4K tokens and then extending to 128K\n- Evaluation on LongBench\n\nSlide 3: Experiment\n- The proposed method is the best in all datasets\n- Speed is improved 3 times\n\nSlide 4: Thank you for your listening!\n\n讲稿：\nToday I will introduce you a paper about long context LLM. Firstly, let me introduce the background. With the development of LLM, more and more researches focus on long context, however existing methods have high computation cost because the attention complexity is quadratic to the sequence length which makes it difficult to process very long documents in practical applications. In this paper, the authors put forward a sparse attention method. Everyone can see that the proposed method is the best in all datasets. That's all my report, welcome everyone to criticize and correct.",
+      "expected_output": "Uses notes-and-slides.md; slide-by-slide action titles; parallel bullets (Propose/Training/Evaluation); researches uncountable; with-development; overclaim attribution (authors report); 'improved 3 times' ambiguity; Thank you for your listening; script: introduce you, firstly let me introduce, long sentence split, put forward, everyone can see, That's all my report, criticize and correct; signposting allowed in speech."
+    }
+  ]
+}
