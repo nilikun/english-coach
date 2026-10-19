@@ -1,6 +1,6 @@
 {
   "name": "english-coach",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reviews the English you wrote, sentence by sentence, and explains every fix in your language. For papers, reports and work email.",
   "author": {
     "name": "nilikun"
