@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
 <rect width="1200" height="640" rx="24" fill="#f7f5f0"/>
 <text x="56" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="600" fill="#667085" text-anchor="start">english-coach</text>
-<text x="56" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'PingFang TC', 'Hiragino Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="40" font-weight="700" fill="#101828" text-anchor="start">不替你写，教你写。</text>
+<text x="56" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'PingFang TC', 'Hiragino Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="40" font-weight="700" fill="#101828" text-anchor="start">AI 时代，亲手学习英文写作。</text>
 <text x="56" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'PingFang TC', 'Hiragino Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="20" font-weight="400" fill="#475467" text-anchor="start">逐句批改你自己写的英文，告诉你为什么这样改。</text>
 <rect x="56" y="200" width="500" height="384" rx="16" fill="#ffffff" stroke="#e4e2dc"/>
 <text x="84" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'PingFang TC', 'Hiragino Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="13" font-weight="700" fill="#98a2b3" text-anchor="start">你的草稿</text>

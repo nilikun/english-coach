@@ -4,6 +4,8 @@
 
 # english-coach
 
+**Learn to write English yourself, even with AI around.**
+
 An agent skill that reviews the English you wrote and explains every fix in your own language.<br>
 For papers, reading notes, slides, reports and work email. Built for Chinese, Japanese and Singaporean writers.
 

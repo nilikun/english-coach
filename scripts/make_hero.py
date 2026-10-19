@@ -43,7 +43,7 @@ SPANS_JA = [(0, 5, 20, "unnatural"), (3, 14, 19, "unnatural"), (4, 7, 12, "error
 
 LANGS = {
     "en": {
-        "tagline": "A coach, not a ghostwriter.",
+        "tagline": "Learn to write English yourself, even with AI around.",
         "sub": "Reviews the English you wrote, sentence by sentence, and tells you why.",
         "draft_label": "YOUR DRAFT",
         "notes_label": "COACH NOTES",
@@ -59,7 +59,7 @@ LANGS = {
         "turn": "“Please reply me” has a verb-pattern mistake. Fix it yourself.",
     },
     "zh-CN": {
-        "tagline": "不替你写，教你写。",
+        "tagline": "AI 时代，亲手学习英文写作。",
         "sub": "逐句批改你自己写的英文，告诉你为什么这样改。",
         "draft_label": "你的草稿",
         "notes_label": "批改",
@@ -75,7 +75,7 @@ LANGS = {
         "turn": "“Please reply me” 还有一个动词搭配错误，自己改一下发回来。",
     },
     "zh-TW": {
-        "tagline": "不替你寫，教你寫。",
+        "tagline": "AI 時代，親手學習英文寫作。",
         "sub": "逐句批改你自己寫的英文，告訴你為什麼這樣改。",
         "draft_label": "你的草稿",
         "notes_label": "批改",
@@ -91,7 +91,7 @@ LANGS = {
         "turn": "「Please reply me」還有一個動詞用法錯誤，自己改改看再傳給我。",
     },
     "ja": {
-        "tagline": "代筆ではなく、コーチ。",
+        "tagline": "AI 時代こそ、英語は自分の手で書いて学ぶ。",
         "sub": "あなたが書いた英語を一文ずつ添削し、理由まで説明します。",
         "draft_label": "あなたの下書き",
         "notes_label": "添削",
