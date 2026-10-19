@@ -13,7 +13,7 @@
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-6941c6.svg)](skills/english-coach/SKILL.md)
 [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20Gemini%20CLI-1d2939.svg)](#安裝)
 
-<img src="assets/hero-zh-TW.svg" alt="一封英文 email 草稿，標出四個問題，右邊是逐條批改和原因" width="100%">
+<img src="assets/hero-zh-TW.png" alt="一篇期刊摘要草稿，標出 6 個問題，右側逐條批改，下方是習慣統計、練習任務和錯題本更新" width="100%">
 
 </div>
 
@@ -68,6 +68,8 @@ npx skills add nilikun/english-coach
 也可以直接叫它：`/english-coach <草稿>`（用 Claude Code 外掛安裝的話是 `/english-coach:english-coach`）。
 
 ## 它能做什麼
+
+<img src="assets/features-zh-TW.png" alt="english-coach 的八個功能，每個配一個修改前後的例子" width="100%">
 
 它會看你傳來的內容，自己判斷要用哪種模式。
 

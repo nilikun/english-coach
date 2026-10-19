@@ -41,6 +41,10 @@ The roadmap in the README lists the languages people have asked for.
 
 ## Rebuild the README images
 
+The images are HTML pages rendered with headless Google Chrome. Edit the text in `scripts/make_images.py`, then:
+
 ```bash
-python3 scripts/make_hero.py
+python3 scripts/make_images.py
 ```
+
+Set `CHROME=/path/to/chrome` if Chrome isn't in the default macOS location.

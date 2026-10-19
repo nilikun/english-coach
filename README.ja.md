@@ -13,7 +13,7 @@
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-6941c6.svg)](skills/english-coach/SKILL.md)
 [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20Gemini%20CLI-1d2939.svg)](#インストール)
 
-<img src="assets/hero-ja.svg" alt="英文メールの下書きの4か所に印が付き、右側にそれぞれの添削と理由が並んでいる" width="100%">
+<img src="assets/hero-ja.png" alt="日本人研究者の論文アブストラクトに6か所の印が付き、右側に添削、下に癖の集計・練習課題・間違いノートの更新が並んでいる" width="100%">
 
 </div>
 
@@ -68,6 +68,8 @@ npx skills add nilikun/english-coach
 名前で呼ぶこともできます：`/english-coach <下書き>`（Claude Code プラグインとして入れた場合は `/english-coach:english-coach`）。
 
 ## できること
+
+<img src="assets/features-ja.png" alt="english-coach の8つの機能と、それぞれの修正前・修正後の例" width="100%">
 
 送られた内容を見て、どのモードを使うかは skill が判断します。
 

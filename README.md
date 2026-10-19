@@ -13,7 +13,7 @@ For papers, reading notes, slides, reports and work email. Built for Chinese, Ja
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-6941c6.svg)](skills/english-coach/SKILL.md)
 [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20Gemini%20CLI-1d2939.svg)](#install)
 
-<img src="assets/hero-en.svg" alt="A draft email with four highlighted problems and the coach's notes explaining each one" width="100%">
+<img src="assets/hero-en.png" alt="A Chinese graduate student's journal abstract with six numbered problems, the coach's note for each, a habit summary, a practice task and the updated error notebook" width="100%">
 
 </div>
 
@@ -68,6 +68,8 @@ Can you check this email to a supplier? <draft>
 Or call it by name: `/english-coach <draft>` (as a Claude Code plugin: `/english-coach:english-coach`).
 
 ## What it does
+
+<img src="assets/features-en.png" alt="Eight features of english-coach, each with a before-and-after example" width="100%">
 
 It reads what you sent and picks the mode itself.
 
